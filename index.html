@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Diego Pastrana</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+   </head>
+   <body class="bg-stone-800 text-white min-h-screen merriweather-black">
+      <header class="bannerBorder h-[40vh] md:h-[45vh] bg-cover bg-center flex flex-col items-center justify-center text-center relative" style="background-image: url('./img/3%20Mosaicos%20Lunares%20de%20los%20mismos%20datos%20Diego%20Pastrana%2024-08-24.png');">
+         <div class="mx-auto flex flex-col items-center text-center px-4">
+            <h1 class="text-3xl md:text-5xl font-bold whitetBorderFont hover">Diego Pastrana</h1>
+            <p class="text-xl md:text-3xl whitetBorderFont hover">Astrophotography from the city</p>
+         </div>
+         <div class="flex justify-center space-x-4 mt-4 md:mt-8 absolute bottom-2 md:relative md:bottom-auto">
+            <a href="https://www.instagram.com/diegopastrana25/" target="_blank" class="text-white hover:text-gray-400 text-xs">
+               Instagram
+            </a>
+            <a href="https://www.threads.net/@diegopastrana25" target="_blank" class="text-white hover:text-gray-400 text-xs">
+               Threads
+            </a>
+            <a href="https://x.com/diegopastrana25" target="_blank" class="text-white hover:text-gray-400 text-xs">
+               X
+            </a>
+         </div>
+      </header>
+      <div class="bg-stone-800 bg-center flex items-center min-h-[55vh]">
+         <div class="container mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-7 p-4">
+            <button class="aspect-square bg-stone-500 rounded-xl flex items-center justify-center buttonBorder bg-cover bg-center hover" style="background-image: url('./previewImages/Saturno%2029-07-24%20mejorado%20final%20Diego%20Pastrana_720p.png');" onclick="location.href='./planets/planets.html'">
+            <span class="text-lg md:text-2xl whitetBorderFont">Planets</span>
+            </button>
+            <button class="aspect-square bg-stone-500 rounded-xl flex items-center justify-center buttonBorder bg-cover bg-center hover" style="background-image: url('./previewImages/Cráter%20Kepler%20y%20Copernicus%20Diego%20Pastrana%2021-08-24_720p.png');" onclick="location.href='./moon/moon.html'">
+            <span class="text-lg md:text-2xl whitetBorderFont">Moon</span>
+            </button>
+            <button class="aspect-square bg-stone-500 rounded-xl flex items-center justify-center buttonBorder bg-cover bg-center hover" style="background-image: url('./previewImages/Vega%2029-07-24%20Diego%20Pastrana_720p.png');" onclick="location.href='./stars/stars.html'">
+            <span class="text-lg md:text-2xl whitetBorderFont">Stars</span>
+            </button>
+            <button class="aspect-square bg-stone-500 rounded-xl flex items-center justify-center buttonBorder bg-cover bg-center hover" style="background-image: url('./previewImages/Nebulosa%20de%20Orión%20Diego%20Pastrana%2016-08-24%20mejorado_720p.png');" onclick="location.href='./deepSky/deepSky.html'">
+            <span class="text-lg md:text-2xl whitetBorderFont">Deep sky</span>
+            </button>
+         </div>
+      </div>
+      <footer class="text-center text-sm text-gray-400 py-2 fixed bottom-0 w-full bg-stone-900 footerBorder z-20">
+         <p>&copy;All images are the property of Diego Pastrana</p>
+      </footer>
+   </body>
+</html>

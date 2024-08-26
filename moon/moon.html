@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Luna</title>
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="../css/style.css">
+      <script src="https://cdn.tailwindcss.com"></script>
+   </head>
+   <body class="bg-stone-800 text-white min-h-screen flex flex-col">
+      <header class="p-3 flex fixed top-0 w-full bg-stone-900 headerBorder items-center z-30">
+         <div class="flex items-center justify-between w-full">
+            <a href="../index.html" class="font-bold py-2 px-4 topButton rounded-md hover">Home</a>
+            <h1 class="text-4xl merriweather-bold whitetBorderFont flex-1 text-center">Moon</h1>
+            <div class="w-20"></div>
+         </div>
+      </header>
+      <main class="flex-grow mt-[70px] mb-[50px]">
+         <section class="bg-stone-800">
+            <h2 class="sr-only">Gallery of Moon Images</h2>
+            <div class="grid grid-cols-2 md:grid-cols-6 gap-6 p-4">
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover" 
+                     style="background-image: url('../previewImages/3%20Mosaicos%20Lunares%20de%20los%20mismos%20datos%20Diego%20Pastrana%2024-08-24_720p.png');" 
+                     onclick="location.href='#2408242333'">
+                  </div>
+                  <div id="2408242333" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/3%20Mosaicos%20Lunares%20de%20los%20mismos%20datos%20Diego%20Pastrana%2024-08-24.png" target="_blank">
+                        <img src="../img/3%20Mosaicos%20Lunares%20de%20los%20mismos%20datos%20Diego%20Pastrana%2024-08-24.png" alt="Composite of detailed Moon images">
+                        </a>
+                        <p>Composite of the 3 versions of the most detailed image I've achieved of the full Moon to date (08-25-24), created from 43 images manually positioned to form a mosaic of the surface; captured with a Maksutov 127/1500 telescope and a Player One Mars-C planetary camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover" 
+                     style="background-image: url('../previewImages/Cráter%20Kepler%20y%20Copernicus%20Diego%20Pastrana%2021-08-24_720p.png');" 
+                     onclick="location.href='#2108242331'">
+                  </div>
+                  <div id="2108242331" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Cráter%20Kepler%20y%20Copernicus%20Diego%20Pastrana%2021-08-24.jpg" target="_blank">
+                        <img src="../img/Cráter%20Kepler%20y%20Copernicus%20Diego%20Pastrana%2021-08-24.jpg" alt="Kepler and Copernicus Craters">
+                        </a>
+                        <p>Kepler Crater (left) and Copernicus Crater (right), captured with a Maksutov 127/1500 telescope and a Player One Mars-C planetary camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover" 
+                     style="background-image: url('../previewImages/Mosaico%20Lunar%20Diego%20Pastrana%2024-08-24%20(BN)_720p.png');" 
+                     onclick="location.href='#240824BN2313'">
+                  </div>
+                  <div id="240824BN2313" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Mosaico%20Lunar%20Diego%20Pastrana%2024-08-24%20(BN).png" target="_blank">
+                        <img src="../img/Mosaico%20Lunar%20Diego%20Pastrana%2024-08-24%20(BN).png" alt="Black and white enhanced Moon image">
+                        </a>
+                        <p>The most detailed image I've achieved of the full Moon to date (08-25-24), created from 43 images manually positioned to form a mosaic of the surface; this is the enhanced black and white version for greater detail, captured with a Maksutov 127/1500 telescope and a Player One Mars-C planetary camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover"  
+                     style="background-image: url('../previewImages/Mosaico%20Lunar%20Diego%20Pastrana%2024-08-24_720p.png');" 
+                     onclick="location.href='#2408242313'">
+                  </div>
+                  <div id="2408242313" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Mosaico%20Lunar%20Diego%20Pastrana%2024-08-24.png" target="_blank">
+                        <img src="../img/Mosaico%20Lunar%20Diego%20Pastrana%2024-08-24.png" alt="Enhanced full Moon image">
+                        </a>
+                        <p>The most detailed image I've achieved of the full Moon to date (08-25-24), created from 43 images manually positioned to form a mosaic of the surface; this is the enhanced version, captured with a Maksutov 127/1500 telescope and a Player One Mars-C planetary camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover" 
+                     style="background-image: url('../previewImages/Mosaico%20Lunar%20Diego%20Pastrana%2024-08-24%20(Original)_720p.png');" 
+                     onclick="location.href='#2408242314'">
+                  </div>
+                  <div id="2408242314" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Mosaico%20Lunar%20Diego%20Pastrana%2024-08-24%20(Original).png" target="_blank">
+                        <img src="../img/Mosaico%20Lunar%20Diego%20Pastrana%2024-08-24%20(Original).png" alt="Original full Moon image">
+                        </a>
+                        <p>The most detailed image I've achieved of the full Moon to date (08-25-24), created from 43 images manually positioned to form a mosaic of the surface; this is the original version, captured with a Maksutov 127/1500 telescope and a Player One Mars-C planetary camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover"  
+                     style="background-image: url('../previewImages/Montañas%20Cráter%20Theophilus%20Diego%20Pastrana%2024-08-24_720p.png');" 
+                     onclick="location.href='#2408242219'">
+                  </div>
+                  <div id="2408242219" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Montañas%20Cráter%20Theophilus%20Diego%20Pastrana%2024-08-24.png" target="_blank">
+                        <img src="../img/Montañas%20Cráter%20Theophilus%20Diego%20Pastrana%2024-08-24.png" alt="Mountains in Theophilus Crater">
+                        </a>
+                        <p>Mountains in the center of Theophilus Crater, Psi (top left), Phi (top right), and Alpha (bottom); captured with a Maksutov 127/1500 telescope and a Player One Mars-C planetary camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover"  
+                     style="background-image: url('../previewImages/Cráter%20Theophilus%20Diego%20Pastrana%2024-08-24_720p.png');" 
+                     onclick="location.href='#2408241948'">
+                  </div>
+                  <div id="2408241948" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Cráter%20Theophilus%20Diego%20Pastrana%2024-08-24.png" target="_blank">
+                        <img src="../img/Cráter%20Theophilus%20Diego%20Pastrana%2024-08-24.png" alt="Theophilus Crater">
+                        </a>
+                        <p>Theophilus Crater, captured with a Maksutov 127/1500 telescope and a Player One Mars-C planetary camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover" 
+                     style="background-image: url('../previewImages/Cráter%20Copernicus%20Diego%20Pastrana%2014-08-24_mejorado_720p.png');" 
+                     onclick="location.href='#1408241944'">
+                  </div>
+                  <div id="1408241944" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Cráter%20Copernicus%20Diego%20Pastrana%2014-08-24_mejorado.jpg" target="_blank">
+                        <img src="../img/Cráter%20Copernicus%20Diego%20Pastrana%2014-08-24_mejorado.jpg" alt="Copernicus Crater">
+                        </a>
+                        <p>Copernicus Crater, captured with a Maksutov 127/1500 telescope and a Player One Mars-C planetary camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover" 
+                     style="background-image: url('../previewImages/Mare%20Crisium%20(arriba),Mare%20Tranquilitatis%20(abajo)%20y%20Dorsa%20Cato%20(derecha)%20Diego%20Pastrana%2022-08-24_720p.png');" 
+                     onclick="location.href='#2208241935'">
+                  </div>
+                  <div id="2208241935" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Mare%20Crisium%20(arriba),Mare%20Tranquilitatis%20(abajo)%20y%20Dorsa%20Cato%20(derecha)%20Diego%20Pastrana%2022-08-24.png" target="_blank">
+                        <img src="../img/Mare%20Crisium%20(arriba),Mare%20Tranquilitatis%20(abajo)%20y%20Dorsa%20Cato%20(derecha)%20Diego%20Pastrana%2022-08-24.png" alt="Mare Crisium, Mare Tranquillitatis, and Dorsa Cato">
+                        </a>
+                        <p>Mare Crisium (top), Mare Tranquillitatis (bottom), and Dorsa Cato (right), captured with a Maksutov 127/1500 telescope and a Player One Mars-C planetary camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover"  
+                     style="background-image: url('../previewImages/Mar%20de%20la%20Serenidad%20Diego%20Pastrana%2021-08-24_720p.png');" 
+                     onclick="location.href='#2108241934'">
+                  </div>
+                  <div id="2108241934" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Mar%20de%20la%20Serenidad%20Diego%20Pastrana%2021-08-24.png" target="_blank">
+                        <img src="../img/Mar%20de%20la%20Serenidad%20Diego%20Pastrana%2021-08-24.png" alt="Sea of Serenity">
+                        </a>
+                        <p>Sea of Serenity, captured with a Maksutov 127/1500 telescope and a Player One Mars-C planetary camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover"  
+                     style="background-image: url('../previewImages/Luna%2024-07-24%20Diego%20Pastrana_720p.png');" 
+                     onclick="location.href='#2407241926'">
+                  </div>
+                  <div id="2407241926" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Luna%2024-07-24%20Diego%20Pastrana.png" target="_blank">
+                        <img src="../img/Luna%2024-07-24%20Diego%20Pastrana.png" alt="Unprocessed lunar surface image">
+                        </a>
+                        <p>Unprocessed image of the lunar surface in twilight, specifically at the edge of the Mare Crisium region, captured with a Maksutov 127/1500 telescope and a Player One Mars-C planetary camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover"  
+                     style="background-image: url('../previewImages/Fases%20de%20la%20Luna%20Diego%20Pastrana%20873rjhasgd87wyrjhbf_720p.png');" 
+                     onclick="location.href='#873rjhasgd87wyrjhbf'">
+                  </div>
+                  <div id="873rjhasgd87wyrjhbf" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Fases%20de%20la%20Luna%20Diego%20Pastrana%20873rjhasgd87wyrjhbf.jpeg" target="_blank">
+                        <img src="../img/Fases%20de%20la%20Luna%20Diego%20Pastrana%20873rjhasgd87wyrjhbf.jpeg" alt="Moon phases">
+                        </a>
+                        <p>Moon phases, captured with a Maksutov 90/1250 telescope and a mobile phone camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover"  
+                     style="background-image: url('../previewImages/Cráter%20Theophilus%20Diego%20Pastrana%20y8rmnsdfkjsdkjhsdffaw_720p.png');" 
+                     onclick="location.href='#y8rmnsdfkjsdkjhsdffaw'">
+                  </div>
+                  <div id="y8rmnsdfkjsdkjhsdffaw" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Cráter%20Theophilus%20Diego%20Pastrana%20y8rmnsdfkjsdkjhsdffaw.jpeg" target="_blank">
+                        <img src="../img/Cráter%20Theophilus%20Diego%20Pastrana%20y8rmnsdfkjsdkjhsdffaw.jpeg" alt="Theophilus Crater">
+                        </a>
+                        <p>Theophilus Crater, captured with a Maksutov 90/1250 telescope and a mobile phone camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover"  
+                     style="background-image: url('../previewImages/Cráter%20Theophilus%20Diego%20Pastrana%20ly8rjhsdffaw_720p.png');" 
+                     onclick="location.href='#ly8rjhsdffaw'">
+                  </div>
+                  <div id="ly8rjhsdffaw" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Cráter%20Theophilus%20Diego%20Pastrana%20ly8rjhsdffaw.jpeg" target="_blank">
+                        <img src="../img/Cráter%20Theophilus%20Diego%20Pastrana%20ly8rjhsdffaw.jpeg" alt="Theophilus Crater">
+                        </a>
+                        <p>Theophilus Crater, captured with a Maksutov 90/1250 telescope and a mobile phone camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover"  
+                     style="background-image: url('../previewImages/Cráter%20Copernicus%20Diego%20Pastrana%20o87e6fd9283rjhaed_720p.png');" 
+                     onclick="location.href='#o87e6fd9283rjhaed'">
+                  </div>
+                  <div id="o87e6fd9283rjhaed" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Cráter%20Copernicus%20Diego%20Pastrana%20o87e6fd9283rjhaed.jpeg" target="_blank">
+                        <img src="../img/Cráter%20Copernicus%20Diego%20Pastrana%20o87e6fd9283rjhaed.jpeg" alt="Copernicus Crater">
+                        </a>
+                        <p>Copernicus Crater, captured with a Maksutov 90/1250 telescope and a mobile phone camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover"  
+                     style="background-image: url('../previewImages/Luna%20Diego%20Pastrana%209834756rjkashdfhfglhj_720p.png');" 
+                     onclick="location.href='#9834756rjkashdfhfglhj3'">
+                  </div>
+                  <div id="9834756rjkashdfhfglhj3" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Luna%20Diego%20Pastrana%209834756rjkashdfhfglhj.jpeg" target="_blank">
+                        <img src="../img/Luna%20Diego%20Pastrana%209834756rjkashdfhfglhj.jpeg" alt="Moon">
+                        </a>
+                        <p>Moon, captured with a Maksutov 90/1250 telescope and a mobile phone camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover"  
+                     style="background-image: url('../previewImages/Cráter%20Lansberg%20Diego%20Pastrana%20987436jahgsda_720p.png');" 
+                     onclick="location.href='#987436jahgsda'">
+                  </div>
+                  <div id="987436jahgsda" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Cráter%20Lansberg%20Diego%20Pastrana%20987436jahgsda.jpeg" target="_blank">
+                        <img src="../img/Cráter%20Lansberg%20Diego%20Pastrana%20987436jahgsda.jpeg" alt="Lansberg Crater">
+                        </a>
+                        <p>Lansberg Crater, captured with a Maksutov 90/1250 telescope and a mobile phone camera.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="aspect-square buttonBorder bg-cover bg-center hover"  
+                     style="background-image: url('../previewImages/Luna%20Diego%20Pastrana%208i7rkjhasfd78623trhgavsd_720p.png');" 
+                     onclick="location.href='#8i7rkjhasfd78623'">
+                  </div>
+                  <div id="8i7rkjhasfd78623" class="modal buttonBorder">
+                     <a href="#!" class="close"></a>
+                     <div class="modal-content imageWindow">
+                        <a href="../img/Luna%20Diego%20Pastrana%208i7rkjhasfd78623trhgavsd.jpeg" target="_blank">
+                        <img src="../img/Luna%20Diego%20Pastrana%208i7rkjhasfd78623trhgavsd.jpeg" alt="Full Moon">
+                        </a>
+                        <p>Full Moon, captured with a Maksutov 90/1250 telescope and a mobile phone camera.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="text-center text-sm text-gray-400 py-2 fixed bottom-0 w-full bg-stone-900 footerBorder z-20">
+         <p>&copy;All images are the property of Diego Pastrana</p>
+      </footer>
+   </body>
+</html>
